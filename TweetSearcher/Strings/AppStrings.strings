@@ -1,0 +1,14 @@
+/* 
+  AppStrings.strings
+  TweetSearcher
+
+  Created by Gontse Ranoto on 2021/11/02.
+  
+*/
+
+
+"noSeachResultsMessage" = "No Search Results";
+"tryAgain" = "Try Again";
+"cancel" = "Cancel";
+"errorTitle" = "Error";
+"generalErrorMessage" = "Oop An Error Occured";

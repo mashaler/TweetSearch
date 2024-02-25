@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="TweetTableViewCell" rowHeight="163" id="4E9-zH-rNR" customClass="TweetTableViewCell" customModule="TweetSearcher" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="603" height="163"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4E9-zH-rNR" id="QmF-7O-hCa">
+                <rect key="frame" x="0.0" y="0.0" width="603" height="163"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="b30-rv-Avb">
+                        <rect key="frame" x="8" y="8" width="587" height="147"/>
+                        <subviews>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Retweeted" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hTf-BM-Swq">
+                                <rect key="frame" x="0.0" y="0.0" width="587" height="0.0"/>
+                                <fontDescription key="fontDescription" name="CourierNewPSMT" family="Courier New" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@TweeterHandle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gFN-nd-mX4">
+                                <rect key="frame" x="0.0" y="0.0" width="587" height="49"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tweet" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZI7-ne-vXD">
+                                <rect key="frame" x="0.0" y="67" width="587" height="80"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="b30-rv-Avb" firstAttribute="leading" secondItem="QmF-7O-hCa" secondAttribute="leading" constant="8" id="1Zv-O8-uoP"/>
+                    <constraint firstAttribute="trailing" secondItem="b30-rv-Avb" secondAttribute="trailing" constant="8" id="HbJ-xQ-Afd"/>
+                    <constraint firstAttribute="bottom" secondItem="b30-rv-Avb" secondAttribute="bottom" constant="8" id="YpH-0o-mji"/>
+                    <constraint firstItem="b30-rv-Avb" firstAttribute="top" secondItem="QmF-7O-hCa" secondAttribute="top" constant="8" id="jHq-kI-GOB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="handleLabel" destination="gFN-nd-mX4" id="vko-ap-4sk"/>
+                <outlet property="retweetLabel" destination="hTf-BM-Swq" id="zgO-Lz-exO"/>
+                <outlet property="tweetLabel" destination="ZI7-ne-vXD" id="7gk-gc-6gD"/>
+            </connections>
+            <point key="canvasLocation" x="-52.898550724637687" y="-428.90625"/>
+        </tableViewCell>
+    </objects>
+</document>
