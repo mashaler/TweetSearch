@@ -2,8 +2,6 @@
 //  AppDelegate.swift
 //  TweetSearcher
 //
-//  Created by Gontse Ranoto on 2021/10/27.
-//
 
 import UIKit
 

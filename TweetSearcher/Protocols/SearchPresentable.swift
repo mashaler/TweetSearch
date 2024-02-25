@@ -2,8 +2,6 @@
 //  SearchPresentable.swift
 //  TweetSearcher
 //
-//  Created by Gontse Ranoto on 2021/11/02.
-//
 
 import Foundation
 

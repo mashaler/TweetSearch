@@ -2,8 +2,6 @@
 //  CellIdentifiable.swift
 //  TweetSearcher
 //
-//  Created by Gontse Ranoto on 2021/11/01.
-//
 
 import UIKit.UINib
 

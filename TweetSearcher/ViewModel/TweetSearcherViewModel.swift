@@ -2,8 +2,6 @@
 //  TweetSearcherViewModel.swift
 //  TweetSearcher
 //
-//  Created by Gontse Ranoto on 2021/10/29.
-//
 
 import Foundation
 import Combine
